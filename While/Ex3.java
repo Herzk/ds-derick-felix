@@ -12,7 +12,7 @@ public class Ex3{
             p+=2;
         };
 
-        System.out.println("Números ímpares de 1 a n:");
+        System.out.println("\nNúmeros ímpares de 1 a n:");
         while(i <= n){
             System.out.print(i + "; ");
             i+=2;
