@@ -13,7 +13,9 @@ public class Ex13{
                 System.out.println("VALOR INVÁLIDO");
             }
         }
-        for(i = 1; i<= n; i++){
+        System.out.print(aux1+"; ");
+        System.out.print(aux2+"; ");
+        for(i = 1; i<= (n-2); i++){
             F = aux1+aux2;
             aux1 = aux2;
             aux2 = F;
